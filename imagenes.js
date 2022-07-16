@@ -1,3 +1,5 @@
+console.log("Actualizacion realizada con exito");
+
 function googleTranslateElementInit() {
 new google.translate.TranslateElement({pageLanguage: 'es', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
 }
