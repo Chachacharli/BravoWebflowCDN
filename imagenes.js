@@ -42,9 +42,9 @@ var imagen = document.getElementById('imagen');
 var imagen2 = document.getElementById('imagen2');
 var imagen3 = document.getElementById('imagen3');
 
-$("input[name=bases][value= 0 ]").prop('checked',true);
-$("input[name=rines][value= 0 ]").prop('checked',true);
-$("input[name=groupset][value= 0 ]").prop('checked',true);
+$("input[name=bases][value= 0 ]").attr('checked', 'checked');
+$("input[name=rines][value= 0 ]").attr('checked', 'checked');
+$("input[name=groupset][value= 0 ]").attr('checked', 'checked');
 
 var camara = "00";
 var bg = 0;
