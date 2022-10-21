@@ -18,15 +18,14 @@ var groupsetFinal = 0;
 // Manubrios
 
 $('input[name="manubrio"]').click(function(){
-    alert("Manubrio: " + this.value);
-    console.log("Manubrio: " + this.value)
+    manubrioFinal = this.value;
+
 });
 
 
 //Grupo
 $('input[name="groupset"]').click( function(){
-    alert("groupset: " + this.value);
-    console.log("groupset: " + this.value)
+    groupsetFinal = this.value;
 });   
   
 
